@@ -26,10 +26,4 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('indicadores-financieros');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('indicadores-financieros app is running!');
-  });
 });

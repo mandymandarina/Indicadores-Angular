@@ -1,0 +1,24 @@
+.table {
+    width: 100%;
+    text-align: center;
+  }
+
+  h2{
+    color: #0D47A1;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .indicador-link {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .indicador-link:hover {
+    text-decoration: underline;
+  }
+  
