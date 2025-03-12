@@ -23,4 +23,20 @@ Ejecuta ng test para ejecutar las pruebas unitarias a través de Karma.
 
 API para construcción de la aplicación:https://api.cmfchile.cl/index.html y https://mindicador.cl/api
 
+# install
 
+- npm install bootstrap
+
+Se agregan en angular.json:
+
+"styles": [
+  "node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "src/styles.css"
+],
+"scripts": [
+  "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+]
+
+- ng add @angular/material
+- npm install chart.js
+- npm install ng2-charts
