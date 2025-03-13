@@ -20,6 +20,7 @@
   
   h2 {
     color: #0d47a1;
+    font-size: 26px;
   }
   
 .modal-overlay {
@@ -68,6 +69,10 @@ color: #0d47a1;
   text-align: center;
 }
 
+.material-icons:hover {
+  color: #007bff;
+}
+
 th{
   background-color: #007bff;
   text-align: center;
@@ -79,4 +84,29 @@ th{
   border: transparent !important;
   text-align: center !important;
 }
-  
+
+::ng-deep .mat-tooltip {
+  background-color: #007bff !important;
+  color: white !important;
+  border-radius: 8px !important;
+  font-size: 14px !important;
+  padding: 8px !important;
+}
+
+::ng-deep .mat-tooltip .mat-tooltip-inner {
+  background-color: #007bff !important;
+  color: white !important;
+  border-radius: 8px !important;
+}
+
+::ng-deep .mat-tooltip .arrow::before {
+  border-top-color: #007bff !important;
+}
+
+.tooltip {
+  background-color: #007bff !important;
+  color: white !important;
+  border-radius: 8px !important;
+  font-size: 14px !important;
+  padding: 8px !important;
+}

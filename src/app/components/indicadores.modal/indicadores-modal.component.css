@@ -12,6 +12,9 @@
   z-index: 1000;
 }
 
+h5{
+  font-size: 30px !important;
+}
 .modal-container {
   background: white;
   padding: 20px;
@@ -79,6 +82,10 @@
 
 .btn-secondary:hover {
   background: #0056b3;
+}
+
+.valor {
+  font-size: 22px;
 }
 
 

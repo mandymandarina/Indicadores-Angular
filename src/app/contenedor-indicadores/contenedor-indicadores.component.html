@@ -12,13 +12,13 @@
       <thead class="table-primary">
         <tr>
           <th>Indicador</th>
-          <th>Acción</th>
+          <th>Detalle</th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let indicador of indicadores">
           <td>
-            <a [routerLink]="['/historial', indicador.nombre.toLowerCase()]" class="indicador-link">
+            <a data-bs-toggle="tooltip" data-bs-placement="right" title="Haz clic para ver el historial" [routerLink]="['/historial', indicador.nombre.toLowerCase()]" class="indicador-link">
             <strong>{{ nombreCompleto(indicador.nombre) }}</strong>
             </a>
             <br>
@@ -26,7 +26,7 @@
           </td>
           <td class="iconoTd">
             <button class="btn btn-info btn-sm" (click)="mostrarDetalle(indicador)">
-              <i class="material-icons">info</i>
+              <i class="material-icons" data-bs-toggle="tooltip" data-bs-placement="top" title="Información sobre el indicador">info</i>
             </button>
           </td>
         </tr>
